@@ -11,6 +11,16 @@ Este repositório contém duas atividades desenvolvidas para o aprendizado de te
 Caso ainda não tenha configurado o ambiente de desenvolvimento, siga a documentação oficial:
 [Raspberry Pi Pico - Getting Started](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
 
+## Importação do Projeto com a Extensão Raspberry Pi Pico
+Se estiver utilizando o Visual Studio Code com a extensão "Raspberry Pi Pico-W", siga os passos abaixo para importar corretamente o projeto:
+1. Abra o VS Code e instale a extensão "Raspberry Pi Pico" se ainda não tiver instalado.
+2. Na extensão selecione "Import Project" e escolha a versão 2.1.0
+4. Coloque o caminho do arquivo no seu ambiente em "Location"
+5. Selecione "Import" e aguarde os arquivos serem importados
+6. Compile e transfira o código para o Pico seguindo os passos da seção "Como Compilar e Executar" abaixo.
+   
+**Obs**: Caso não consiga importar o projeto por inteiro, importe cada pasta separadamente.
+
 ## Estrutura do Repositório
 ```
 /
@@ -66,4 +76,8 @@ Este programa permite acionar três LEDs simultaneamente ao pressionar um botão
 3. Conecte o Raspberry Pi Pico W no modo USB Mass Storage (pressione e segure o botão BOOTSEL ao conectá-lo ao PC).
 4. Copie o arquivo `.uf2` gerado para o dispositivo.
 5. O programa iniciará automaticamente após a transferência.
+
+## Vídeos de teste de execução no Wokwi
+Link da playlist: https://www.youtube.com/playlist?list=PLaN_cHSVjBi_pGq5jw-5iki8HIGjD6RPM
+---
 
